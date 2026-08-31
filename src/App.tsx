@@ -8,7 +8,7 @@ const [count, setCount] = createSignal(0)
 
   return (
     <>
-      <h1>Hello World!</h1>
+      <h1>Solid JS!</h1>
 
       <p>{count()}</p>
 
