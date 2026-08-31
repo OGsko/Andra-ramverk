@@ -4,11 +4,12 @@ import { createSignal } from 'solid-js'
 
 function App() {
 const [count, setCount] = createSignal(0)
-
+ 
+ console.log ("!!App renderas!!")
 
   return (
     <>
-      <h1>Solid JS!</h1>
+      <h1>Hello Solid JS!</h1>
 
       <p>{count()}</p>
 
